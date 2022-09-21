@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!-- Template by html.am -->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Insight</title>
+	<style type="text/css">
+
+		/* Layout */
+		body {
+			min-width: 630px;
+		}
+		
+		#container .column {
+			position: relative;
+			float: left;
+		}
+		
+		#center {
+			padding: 10px 20px;
+			width: 100%;
+		}
+		
+		#left {
+			width: 180px;
+			padding: 0 10px;
+			right: 240px;
+			margin-left: -100%;
+		}
+		
+		#right {
+			width: 130px;
+			padding: 0 10px;
+			margin-right: -100%;
+		}
+		
+		#footer {
+			clear: both;
+		}
+		
+		/* IE hack */
+		* html #left {
+			left: 150px;
+		}
+
+		/* Make the columns the same height as each other */
+		#container {
+			overflow: hidden;
+		}
+
+		#container .column {
+			padding-bottom: 1001em;
+			margin-bottom: -1000em;
+		}
+
+		/* Fix for the footer */
+		* html body {
+			overflow: hidden;
+		}
+		
+		* html #footer-wrapper {
+			float: left;
+			position: relative;
+			width: 100%;
+			padding-bottom: 10010px;
+			margin-bottom: -10000px;
+			background: #fff;
+		}
+
+		/* Aesthetics */
+		body {
+			margin: 0;
+			padding: 0;
+			font-family:Sans-serif;
+			line-height: 1.5em;
+		}
+		
+		p {
+			color: #555;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav ul a {
+			color: darkgreen;
+			text-decoration: none;
+		}
+
+		#header {
+			font-size: large;
+			padding: 0.3em;
+/*			background: #BCCE98;*/
+            background-image: linear-gradient(#E0F4FF, #FFFFFF);
+            
+            height: 91px;
+		}
+        
+        #footer {
+			font-size: large;
+			padding: 0.3em;
+/*			background: #BCCE98;*/
+            background-image: linear-gradient(#FFFFFF, #E0F4FF);
+            height: 168px;
+		}
+
+		#left {
+			background: #DAE9BC;
+		}
+		
+		#right {
+			background: #F7FDEB;
+		}
+
+		#center {
+			background: #fff;
+		}
+
+		#container .column {
+			padding-top: 1em;
+		}
+		
+        #header_img {
+            padding-top: 20px;
+            padding-left: 20px;
+            
+        }
+        
+        #logo {
+            
+            width: 125px;
+            height: 34px;
+        }
+        
+        #OVERVIEW {
+            
+            width: 125px;
+            height: 19px;
+            padding: 7px;
+            float: right;
+        }
+        
+        #LDC {
+            
+            width: 190px;
+            height: 18px;
+            padding: 7px;
+            float: right;
+            
+        }
+        
+        #footer1 {
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        #umb {
+            float: right;
+        }
+        
+        #footer2 {
+            
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        #team {
+        }
+        
+        #cs {
+            float: right;
+        }
+        
+        #whole {
+                padding-left: 100px;
+                padding-right: 100px;
+        }
+        
+        #tab {
+            padding: 20px;
+        }
+        
+        #tabs {
+            
+            padding: 15px;
+            color: black;
+            text-decoration:none;
+            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  "Helvetica", "Arial", "Lucida Grande", sans-serif;
+        }
+        
+        #slide01 {
+            padding: 20px;
+        }
+        
+        #dot {
+            padding-bottom: 3px;
+        }
+        
+	</style>
+	
+	<script type="text/javascript">
+		/* =============================
+		This script generates sample text for the body content. 
+		You can remove this script and any reference to it. 
+		 ============================= */
+		var bodyText=["The smaller your reality, the more convinced you are that you know everything.", "If the facts don't fit the theory, change the facts.", "The past has no power over the present moment.", "This, too, will pass.", "</p><p>You will not be punished for your anger, you will be punished by your anger.", "Peace comes from within. Do not seek it without.", "<h3>Heading</h3><p>The most important moment of your life is now. The most important person in your life is the one you are with now, and the most important activity in your life is the one you are involved with now."]
+		function generateText(sentenceCount){
+			for (var i=0; i<sentenceCount; i++)
+			document.write(bodyText[Math.floor(Math.random()*7)]+" ")
+		}
+	</script>	
+</head>
+
+<body>
+    
+    <div id= "whole">
+        <header id="header">
+        <!--<p>Header...</p>-->
+        
+        <div id="header_img">
+            <a href="index.html"><img id="logo" src="image/logo.png" alt="Logo" ></a>
+            <img id="LDC" src="image/LongevityDesignChallenge.png" alt="LDC">
+            <img id="OVERVIEW" src="image/ProjectOverview.png" alt="OVERVIEW">
+        </div>
+        
+    
+    </header>
+
+	<div id="container">
+        <div id="tab" style="text-align: center">
+            <a id="tabs" href="index.html">Introduction</a>
+            <img id="dot" src="image/dot.png" alt="dot">
+            <a id="tabs" href="slide2.html" style="font-weight: bold">Problem statement</a>
+            <img id="dot" src="image/dot.png" alt="dot">
+            <a id="tabs" href="slide3.html">Project Proposal</a>
+            <img id="dot" src="image/dot.png" alt="dot">
+            <a id="tabs" href="slide4.html">User Goals & Obstales</a>
+            <img id="dot" src="image/dot.png" alt="dot">
+            <a id="tabs" href="slide5.html">Team Members</a>
+        </div>
+        <div id="slides" style="text-align: center">
+            <img id="slide01" src="image/Slide%2002.png" alt="slide01">
+        </div>
+            
+	
+	</div>
+
+	<div id="footer-wrapper">
+		<footer id="footer">
+            <div id="footer1">
+                <img id="long" src="image/LONGING_FOR_CHANGE.png" alt="long">
+                <img id="umb" src="image/umb.png" alt="umb">
+            </div>
+            <div id="footer2">
+                <img id="team" src="image/team.png" alt="team">
+                <img id="cs" src="image/cs.png" alt="cs">
+            </div>
+            
+        
+        </footer>
+	</div>
+
+    </div>
+	
+</body>
+
+</html>
